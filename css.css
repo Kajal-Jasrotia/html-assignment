@@ -1,0 +1,33 @@
+body {
+    font-family:'Times New Roman';
+    font-size: 18px;
+}
+header, footer {
+    background-color: rgb(177, 127, 135);
+}
+.site-title {
+    color: rgb(168, 52, 192);
+}
+#ITS ME{
+    box-shadow: 0 0 2px 1px black;
+}
+ul {
+    list-style-type: circle;
+}
+ul li:nth-child(odd) {
+    background-color: lightgreen;
+}
+nav ul {
+    list-style: none; 
+}
+nav a {
+    text-decoration: none; 
+    background-color: lightblue; 
+    border: 1px solid #ccc; 
+    padding: 5px 10px;
+    display: inline-block;
+    margin: 5px;
+}
+nav a:hover, nav a:focus {
+    background-color: #f1c4c4;
+}
